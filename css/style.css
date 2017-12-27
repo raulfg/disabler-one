@@ -1,0 +1,1668 @@
+
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/** 
+ * icomoon
+*-------------------------------------------------*/
+@font-face {
+	font-family: 'icomoon';
+	src: url(icomoon.eot');
+}
+@font-face {
+	font-family: 'icomoon';
+src: url(icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icm {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icm-feedly:before {
+	content: "\e600";
+}
+
+.icm-pocket:before {
+	content: "\e601";
+}
+
+.icm-home:before {
+	content: "\e900";
+}
+
+.icm-home3:before {
+	content: "\e902";
+}
+
+.icm-folder-open:before {
+	content: "\e930";
+}
+
+.icm-price-tag:before {
+	content: "\e935";
+}
+
+.icm-price-tags:before {
+	content: "\e936";
+}
+
+.icm-envelop:before {
+	content: "\e945";
+}
+
+.icm-calendar:before {
+	content: "\e953";
+}
+
+.icm-spinner11:before {
+	content: "\e984";
+}
+
+.icm-magnet:before {
+	content: "\e9ab";
+}
+
+.icm-list-numbered:before {
+	content: "\e9b9";
+}
+
+.icm-list:before {
+	content: "\e9ba";
+}
+
+.icm-list2:before {
+	content: "\e9bb";
+}
+
+.icm-menu:before {
+	content: "\e9bd";
+}
+
+.icm-download3:before {
+	content: "\e9c7";
+}
+
+.icm-eye:before {
+	content: "\e9ce";
+}
+
+.icm-mail:before {
+	content: "\ea83";
+}
+
+.icm-mail2:before {
+	content: "\ea84";
+}
+
+.icm-mail3:before {
+	content: "\ea85";
+}
+
+.icm-google-plus:before {
+	content: "\ea88";
+}
+
+.icm-facebook:before {
+	content: "\ea8c";
+}
+
+.icm-twitter:before {
+	content: "\ea91";
+}
+
+.icm-twitter3:before {
+	content: "\ea93";
+}
+
+
+/* 微調整 */
+i.icm-eye {
+    vertical-align: middle;
+}
+
+/** /icomoon ここまで **/
+#content {
+    margin-top: 10px
+}
+
+#wrapper {
+    max-width:1068px!important;
+}
+
+div#breadcrumb {
+    font-size: 16px !important;
+    line-height: 1.8em;
+}
+
+.ad_title {
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+.separator {
+	width:175px;
+}
+
+.separator img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*DL button*/
+.btn {
+	width: 359px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	border-bottom: solid 1px #ccc;
+}
+
+.mv_box_in p.btn {
+	width: 100%;
+}
+
+.btn-list a,
+.btn a {
+	display: block;
+	background: #f3f3f3;
+	cursor: pointer;
+	padding: 2px 5px;
+	text-decoration: none;
+}
+
+.btn-list a:hover,
+.btn a:hover {
+	background-color: #FFAAAA;
+	color: #FFF;
+}
+
+.btn a:before,
+.btn-magnet a:before,
+.btn-list a:before {
+	font-family: 'icomoon';
+	padding-right: 10px;
+	margin-left: -10px;
+}
+
+.btn-list a:before,
+.btn a:before {
+	content: "\e9c7";
+}
+
+.btn-magnet a:before {
+    content: "\e9ab";
+}
+
+.post ul.list-fix {
+    margin: 0px;
+	padding-top: 0px;
+	list-style: none;
+	padding-bottom: 10px !important;
+}
+
+ul.list-fix li {
+	font-weight: bold;
+} 
+
+.post pre {
+	/*border-top: solid 2px #ccc;*/
+	border-bottom: solid 2px #ccc;
+	padding: 20px 0px;
+	word-break: break-all;
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */	
+}
+
+.post pre b,
+.post pre strong {
+	font-size: larger;
+	display: block;
+}
+
+.post code,
+.post pre code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	display: block;
+	padding: 8px;
+	overflow: auto;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.post code.red,
+.post pre code.red {
+color: #c7254e;
+background-color: #f9f2f4;
+}
+
+/*
+Wordpress Popular Posts plugin stylesheet
+Developed by Hector Cabrera
+
+Use the following classes to style your popular posts list as you like.
+*/
+#container #wrap #wrap-in #side #twibox ul.wpp-list,
+#container #wrap #wrap-in #side #twibox ul.wpp-list li {
+	padding: 0px;
+	margin: 0px;
+	line-height: 1em;
+}
+
+#container #wrap #wrap-in #side #twibox ul.wpp-list { /* UL element */
+	margin-top: 5px;
+
+}
+
+	#container #wrap #wrap-in #side #twibox ul.wpp-list li { /* LI - post container */
+		display:inline;
+		height: 1em;
+	}
+
+		/* title styles */
+		.wpp-post-title a {
+			font-size: 16px;
+			font-weight: bold;
+			color: #1a1a1a;
+			line-height: 22px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.wpp-post-title a:hover {
+			color: #900;
+			text-decoration: underline;
+		}
+		
+		/* thumbnail styles */
+		/*.wpp-thumbnail {
+			display:inline;
+			float:left;
+			margin:0 10px 0 0;
+			border:solid 1px #ccc;
+			border-radius: 2px;
+			background: #fff;
+		}
+		*/
+		
+		/* excerpt styles */
+		.wpp-excerpt {
+		}
+		
+		/* Stats tag styles */
+		.post-stats {
+			font-size:9px;
+			font-weight:bold;
+		}
+			
+			.wpp-comments {
+			}
+			
+			.wpp-views {
+				font-size:13px;
+				color:#666;
+			}
+			
+			.wpp-author {
+				font-style:italic;
+			}
+			
+			.wpp-date {
+				display:block;
+				clear:right;
+			}
+			
+
+			.wpp-category-links a {
+				font-size:13px;
+			}
+		
+		/* WP-PostRatings styles */
+		.wpp-rating {
+		}
+		
+/** Popular Posts の順位表示
+-------------------------------------------------------------------------------**/
+.popular-post img:hover {
+    opacity: 1;
+}
+
+.popular-post {
+    counter-reset: wpp-ranking;
+}
+ 
+.popular-post dt:before {
+    color:#FFF;
+    content: counter(wpp-ranking, decimal);
+    counter-increment: wpp-ranking;
+    text-align:center;
+    float:left;
+    line-height:30px;
+    width: 30px;
+    height: 30px;
+    background-color:#3E454C;
+    background-color: rgba(62, 69, 76, 0.7);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    position: absolute;
+}
+
+.popular-post img:hover {
+    opacity: 1;
+}
+
+/**-------------------------------------------------------------------------------**/
+#topnews dt {
+    height: 100px;
+    overflow: hidden;    
+}
+
+#kanren dt {
+    height: 100px;
+    overflow: hidden;
+}
+
+#topnews dt img,
+#kanren dt img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/**-------------------------------------------------------------------------------**/
+#topnews .clearfix dd .blog_info p {
+    font-size: 14px !important;
+}
+
+.blog_info p a {
+    color: #4682b4 !important;
+    text-decoration: underline !important;
+}
+
+.blog_info p a:hover, /* itiran.php タグhover */
+#breadcrumb a:hover {
+    color: #b22222 !important;
+    text-decoration: underline;
+}
+
+
+/**
+ * Read More ボタン 
+ * ----------------------------------------------------------------------------
+ */
+.more-link {
+    margin-top: 15px;
+}
+.motto a {
+	text-decoration: none;
+	background-color: #f3f3f3;
+	width: 100%;
+	color: #666;
+	text-align: center;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: normal;
+	border-bottom: solid 1px #ccc;
+}
+.motto a:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #FFAAAA;
+	text-align: center;
+	display: block;
+}
+
+
+/**
+ * Table レスポンシブ 
+ * ----------------------------------------------------------------------------
+ */
+ 
+ 
+ /** テーブル要素のリセット **/
+ section .post table {
+     border: none;
+ }
+ section .post table tr td {
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5em;
+    border: none;
+
+ }
+ 
+ section table tr:nth-child(even){
+     background: none !important;
+ }
+ 
+.mv_box {
+    max-width: 100%;
+    width: auto;
+}
+
+.mv_box {
+    display: -webkit-flex;
+    display: flex;
+}
+
+#entry-content .mv_box .mv_img {
+    display: block;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#entry-content .mv_box .mv_img img {
+    display: inline;
+    border-radius: 4px;
+}
+
+
+.mv_box_in {
+    max-width: 70%;
+}
+
+
+table.row {
+    max-width: 100%;
+    width: auto;
+    }
+    
+section table.row tr,
+section table.row td {
+    width: 100%;
+    font-size: 12px;
+
+}
+section th, section td  {
+    padding:2px;
+}
+
+section .post table.row th.cell  {
+    border-top: dotted 1px #ccc;
+    border-bottom: dotted 1px #ccc;
+    color: #808080;
+}
+
+section .post table.row td.cell {
+    padding: 7px 0px 6px 10px;
+    border-top: dotted 1px #ccc;
+    border-bottom: dotted 1px #ccc;
+    word-break: break-all;
+}
+
+
+.btn-full {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.mv_box .mv_box_in .btn {
+    margin-top: 20px;
+}
+
+.category-movie .ad-more {
+    padding: 20px 0px;
+}
+
+.category-movie .descri{
+    padding-top: 0px;
+}
+
+
+/**
+ * トップページやArchiveページのdl要素をリンクにする 
+ * ----------------------------------------------------------------------------
+ */
+
+#topnews dl,
+#kanren dl {
+    cursor:pointer;
+}
+
+#topnews dl:first-child {
+    border-top: dotted 1px #999;
+}
+
+.post #kanren dl:last-child,
+#topnews dl:last-child {
+    border-bottom: dotted 1px #999 !important;
+}
+
+#topnews dl:hover,
+#kanren dl:hover {
+    opacity: 0.5;
+}
+
+#topnews dl:active,
+#kanren dl:active {
+    background: rgba(0,  0,  0, 0.3);
+}
+
+#topnews dl,
+#kanren dl {
+    margin-bottom: 0px !important;
+    padding-left: 10px;
+}		
+
+#topnews dl {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+#kanren dl {
+    padding-top: 10px !important;
+}
+
+#kanren dl:last-child {
+	margin-bottom: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+/**
+ * 11.0 Bootstrap v2.3.2
+ * ----------------------------------------------------------------------------
+ */
+
+.pull-left {
+ float: left;
+}
+
+.pull-right {
+ float: right;
+}
+
+.clear-after:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/**** Adsense 広告の微調整****/
+
+.ad-header {
+    margin-top: 10px;
+    float: right;
+    width: 78%;
+}
+
+.img-center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#site-logo {
+    float: left;
+    text-align: center;
+}
+
+.ad-itiran {
+    display: block;
+    padding: 10px 0px;
+    border-bottom: dotted 1px #999;
+}
+
+.ad-box {
+    max-width: 100%;
+    display: block;
+    margin:0px auto;
+}
+
+.ad-box .textwidget {
+    text-align: center;
+}
+
+.ad-kijisita {
+    display: flex;
+}
+
+.ad-kijisita-in {
+    max-width: 50%;
+    width: auto;
+    margin: auto;
+}
+
+
+iframe.wwwp72890 {
+    width: 100%;
+}
+
+
+#sidebar,
+#breadcrumb,
+section h1.entry-title,
+section #entry-content a,
+#kanren.popular-post dl dd,
+#kanren dl.kijishita dt,
+#kanren dl.kijishita dd,
+#prev_next a,
+p.tagst,
+.ad-box,
+.ad-kijisita,
+.ad-itiran,
+#dmcaform,
+#sns-buttons {
+pointer-events: auto !important;
+user-select: auto !important;
+-moz-user-select: auto !important;
+-webkit-user-select: auto !important;
+-ms-user-select: auto !important;
+}
+
+/** postpre **/
+.postpre {
+    border-bottom: solid 2px #ccc;
+}
+.postpre h5 {
+    margin-top:2em;
+}
+
+.postpre h6 {
+    font-size: 14px;
+}
+
+.postpre p {
+    margin: 0em;
+}
+
+.postpre ul,
+.postpre ol {
+padding-top:0.5em;
+padding-bottom: 0.5em;
+}
+
+
+/** img post **/
+.postcap img {
+	border:none;
+	margin: 0px auto;
+}
+
+/** css for download page **/
+.round-btn-parent {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+
+}
+.round-btn2 a,
+.round-btn {
+    text-align: center;
+}
+.round-btn2 a:before,
+.round-btn a:before {
+    font-family: 'icomoon';
+    content: "\e9c7";
+    float: left;
+    padding-top: 3px;
+    padding-left: 1em;
+    margin-right: -1em;
+}
+.round-btn2 a,
+.round-btn a {
+    text-decoration: none;
+    display: block;
+    width: 350px;
+    padding: 4px 2px;
+    border: solid 2px #f3f3f3;
+    border-radius: 20px;
+    background-color: #f3f3f3;    
+    box-shadow: 1px 1px 3px #ccc;
+
+}
+
+.round-btn2 a {
+    background-color: #c7254e;
+    color: #f1f1f1;
+    
+}
+
+.round-btn a:hover {
+    background-color: #FFAAAA;
+    color: white;
+    box-shadow: 0 0 0;
+    border: solid 2px white;
+}
+
+.round-btn2 a:hover {
+    background-color: #f1f1f1;
+    color: #c7254e;
+    border: solid 2px white;
+}
+
+/** Adnow 
+---------------------------------------------------**/
+.post .ad-box table {
+    border: none !important;
+}
+
+/** ul btn 
+---------------------------------------------------**/
+.post ul#dl-btn {
+    padding:0;
+    margin-top:10px !important;
+}
+
+.post ul#dl-btn li.btn-list {
+   font-size: 12px;
+   display: inline-block;
+   max-width: 100%;
+   min-width: 49.2%;
+   width: auto;
+   text-align: center;
+   border-bottom: solid 1px #ccc;
+}
+
+li.btn-list a {
+    display: block;
+    background: #f3f3f3;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+
+.post ul.list-fix {
+    margin: 0px;
+	padding-top: 0px;
+	list-style: none;
+	padding-bottom: 10px !important;
+}
+
+
+.post ul#dl-btn li.btn-list {
+    float: right;
+}
+
+.post ul#dl-btn li.btn-list.btn-magnet {
+    float: left;
+}
+
+/** /ul btn 
+---------------------------------------------------**/
+
+
+
+/** サイドバーウィジェットのタイトル部分
+---------------------------------------------------**/
+.menu_underh2 {
+    background: #f3f3f3;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+
+/*--------------------------------
+PREV NEXT
+---------------------------------*/
+#prev_next{
+    width:100%;
+    margin: 36px 0 24px;
+    padding:0;
+    display: table;
+}
+
+#prev_next  #prev, #prev_next  #next{
+    width: 50%;
+    padding:30px 10px 10px;
+    border-top:#ccc 1px solid;
+    border-bottom:#ccc 1px solid;
+    display: table-cell;
+    position:relative;
+	text-decoration:none;
+}
+#prev_next #prev p, #prev_next #next p{
+	    font-size:90%;
+		line-height:1.5;
+}
+#prev_next #prev:hover, #prev_next #next:hover{
+	background-color: rgba(238,238,238,0.7);
+}
+
+#prev_next #prev{
+	border-right:#ccc 1px solid;
+}
+
+#prev_next #prev_title, #prev_next #next_title{
+    font-size:90%;
+    top:-1em;
+    position:absolute; 
+    border: 1px #ccc solid;
+    background:#fff; 
+    text-align: center;
+    padding:3px;
+    color:#666;
+}
+#prev_next #next_title{
+	right:10px;
+}
+
+#prev_next #prev img, #prev_next #next img{
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+#prev_next #prev_no, #prev_next #next_no{
+	width: 50%;
+	height:140px;
+    padding:0 10px;
+    display: table-cell;
+}
+
+#prev_next #prev_no{
+	border-right:#ccc 1px solid;
+}
+
+#next_no {
+    padding: 30px 10px 10px 10px;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+
+/*app_cap
+----------------------------------------------------*/
+
+.app_cap {
+	border-bottom:solid 2px #ccc;
+	padding-bottom:20px;
+}
+
+.app_cap_img {
+	padding:5px;
+	border:solid 1px #ddd;
+	border-radius:2px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.app_cap_img img {
+    display: inline !important;
+}
+
+
+/*関連記事 横並び
+----------------------------------------------------*/
+article #kanren dl.kijishita {
+    width:25%;
+    height: 250px;
+    float: left;
+    padding-left: 0px;
+}
+
+article #kanren dl.kijishita:first-child {
+    border-top:none;
+}
+
+article #kanren dl.kijishita:last-child {
+    border-bottom: dotted 1px #ccc !important;
+}
+
+article #kanren dl.kijishita dt {
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0px auto 10px;
+    float: none;
+}
+
+article #kanren dl.kijishita dt a:hover img {
+    opacity: 1;
+}
+article #kanren dl.kijishita dd {
+    padding: 0px;
+    font-size: 12px;
+    clear: both;
+}
+
+article #kanren dl.kijishita dd {
+    max-width: 100%;
+    width: auto;
+    font-size: 12px;
+    display: block;
+    padding: 0px 12px;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+article #kanren dl.kijishita dd h5 {
+    font-size: 12px;
+}
+
+article #ranking #kanren dl.kijishita dt {
+    float: none;
+}
+/*
+ * sns flat buttons
+---------------------------------------------------- */
+
+ul#sns-buttons {
+    height: 48px;
+    padding: 0px;
+    margin:20px 0px;
+}
+    
+li.sns-button {
+      width: 19%;
+      float: left;
+      box-sizing: border-box;
+      border-radius: 3px;
+      text-align: center;
+      margin-right: 1.2%;
+      list-style: none;
+      font-size: 17px;
+}
+        
+li.sns-button a {
+      font-weight: bold;
+      height: 25px;
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      display: block;
+      padding: 10px 5px;
+}
+    
+.sns-button a:hover {
+        color: rgba(255, 255, 255, 1);
+}
+    
+.last-btn {
+    margin-right: 0px !important;
+}
+
+.pocket-button img,    
+.feedly-button img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.pocket-button a:hover img,
+.feedly-button a:hover img {
+    opacity: 1 !important;    
+}
+
+.pocket-button {
+      background: #ef3e56;
+}
+    
+.pocket-button {
+      color: rgba (255, 255, 255, 0.2);
+}
+    
+.facebook-button {
+      background-color: rgb(59, 87, 157);
+}
+    
+.feedly-button {
+      background: #13BB0D;
+}
+    
+.rss-button {
+      background: #FF9900;
+}
+    
+.gplus-button {
+        background: #e74b37;
+}
+    
+.twitter-button {
+      background: #00ABEC;
+}
+    
+.mail-button {
+      background-color: #2468ff;
+}
+    
+.sns-button *:before {
+        color: #fff;
+        vertical-align: middle;
+        font-family: 'FontAwesome','icomoon';
+        font-size: 17px;
+}
+    
+.sns-button.twitter-button a:before {
+        content: "\ea91";
+}
+    
+.sns-button.facebook-button a:before {
+        content: "\ea8c";
+        vertical-align: top;
+}
+    
+.sns-button.gplus-button a:before {
+        content: "\ea88";
+        vertical-align: middle;
+}
+    
+.sns-button.mail-button a:before {
+        content: "\f003";
+        vertical-align: top;
+}
+
+.sns-button.pocket-button a:before {
+    content: "\e601";
+}
+
+.sns-button.feedly-button a:before {
+    content: "\e600";
+}
+
+.sns-button.rss-button a:before {
+    content: "\f09e";
+}
+
+/*
+ * sns-button sidebar
+ *
+**-----------------------------------------------------*/
+
+#sns-side ul#sns-buttons li.sns-button {
+    /** width: 18%; *Facebook button 有りの場合 ***/
+    width: 23%;
+    margin-left: 1%;
+}
+
+#sns-side li.sns-button a:before {
+    font-size: 30px;
+}
+
+#sns-side li.sns-button a:hover {
+    opacity: 0.8;
+}
+
+
+/*
+ * 404
+**------------------------------------------------------*/
+
+#entry-content.yonmaruyon h1 {
+    margin-bottom: 1.5em;
+    font-size: 36px;
+    line-height: 1.3em;
+}
+#entry-content.yonmaruyon h2 {
+    margin-top: 2em;
+}
+
+.yonmaruyon #s {
+    width: 60%;
+    vertical-align: top;
+    height: 32px;
+    margin-right: -5px;
+}
+
+.yonmaruyon #searchsubmit {
+    position: inherit;
+}
+
+.yonmaruyon p {
+    font-size: 16px;
+}
+
+.yonmaruyon ul.top-cat-item,
+.yonmaruyon ul.top-cat-item li.cat-item,
+.yonmaruyon ul.top-cat-item ul.children,
+.yonmaruyon ul.top-cat-item ul.children li {
+    padding: 0px;
+    font-size: 16px;
+}
+
+.yonmaruyon ul li.cat-item {
+  display: block;
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+}
+
+.yonmaruyon ul.children {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.yonmaruyon li.cat-item {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.yonmaruyon ul li.cat-item-29 {
+    margin-bottom: 10px;
+    max-width: 100%;
+    width: auto;
+}
+
+/* Adblock Alert
+--------------------------------------------------*/
+
+.alertpanel strong {
+    color:#491217;
+}
+
+.alertpanel {
+    color:rgba(114,28,36, 1);
+    background: rgba(248,215,218, 1.0);
+    padding:2px 4px;
+    border:1px solid #f5c6cb;
+    border-radius:4px;
+    padding:0.8em 1em 0.8em 1.2em;
+    margin: 0px auto;
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.alertpanel p{
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+ 
+}
+
+/*
+ * Pagination 
+ *
+**---------------------------------------------------*/
+
+.pagination span,
+.pagination a {
+    padding: 13px 16px !important;
+    font-size: 12px;
+}
+
+.pagination span,
+.pagination a {
+    background: #555 !important;
+}
+
+.pagination span.current {
+    background: #999 !important;
+}
+
+.pagination a:hover {
+    background: #900 !important;
+}
+
+.pagination a:active {
+    background: #FFAAAA !important;
+}
+
+
+/** youtube 埋め込み動画用 **/
+.movie-wraper {
+   position: relative;
+    /*padding-bottom: 56.25%;*/
+    padding-top: 10px;
+    min-height: 450px;
+    overflow: hidden;
+}
+
+.movie-wraper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.post ol li {
+    font-size: 14px;
+    line-height: 27px;
+    list-style-type: decimal-leading-zero;
+    margin-left: 0.5em;
+}
+
+/*
+ * header nav
+ *
+**---------------------------------------------------*/
+.ad-header nav .menu-all_category-container li {
+    border-left: none !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    font-size: 15px !important;
+}
+
+li.menu-item-20,
+li.menu-item-27,
+li.menu-item-9444,
+li.menu-item-9445,
+li.menu-item-1852,
+li.menu-item-4099,
+li.menu-item-4100 {
+    font-weight: bold;
+}
+
+
+/* New posts
+----------------------------------------------------*/
+.newposts {
+    margin-left: 0.8em;
+    position: absolute;
+    padding: 2px 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c7254e;
+    border-radius: 3px;
+    background-color: #f9f2f4;
+}
+
+
+
+/*media Queries タブレットサイズ
+----------------------------------------------------*/
+@media only screen and (max-width: 780px) {
+    #topnews dd h3 {
+        font-size: 14px!important;
+        line-height: 1.5em!important;
+    }
+.post ul.list-fix li {
+    font-size: 14px !important;
+}
+
+#site-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    max-width: 100%;
+}
+
+#site-logo .logo {
+    width: auto;
+}
+
+/* ---- ここまで ----*/
+}
+
+
+/*media Queries Movie のテーブル要素用
+----------------------------------------------------*/
+@media only screen and (max-width:480px){
+    section .post table.row,
+    section .post table.row tbody,
+    section .post table.row tr,
+    section .post table.row th,
+    section .post table.row td {
+        max-width: 100%;
+        width: auto;
+        display: block;
+        border-top: none;
+    }
+    section .post table.row {margin-bottom: 20px;}
+    .row th {background-color: #f3f3f3;}
+    .row tr:first-child th   { border-top: 1px solid #ddd; }
+
+section .post table.row th.cell  {
+    
+    border-top: dotted 1px #ccc;
+    border-bottom: dotted 1px #ccc;
+    color: #808080;
+}
+
+section .post table.row td.cell {
+    padding: 7px 0px 6px 10px;
+    border: none;
+    word-break: break-all;
+}
+
+section .post table.row tr:last-child {
+    border-bottom: dotted 1px #ccc;
+}
+
+.menu_underh2 {
+    padding-left: 5px;
+}
+/* ---- ここまで ---- */
+}
+
+
+/*media Queries タブレットサイズ
+----------------------------------------------------*/
+@media only screen and (min-width: 380px) {
+
+.sitename img {
+	margin: 0 auto !important;
+}
+
+#topnews dt {
+    width: 100px !important;
+}
+}
+
+/*media Queries スマホ／タブレットサイズ
+* ----------------------------------------------------
+*/
+
+@media only screen and (max-width: 890px) {
+.separator {
+	display: block;
+	width:100%;
+	margin-bottom: 20px;
+} 
+
+.separator img {
+	display: block;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.post ul.list-fix {
+    margin: 0px;
+	padding: 0px 0px 20px 0px;
+	list-style: none;
+}
+
+.btn {
+    width: 100%;
+}
+
+
+/* スマホ表示時のソーシャルボタンの微調整 */
+.snsb li {
+    margin-right: 5px;
+}
+
+/* スマホ表示時の小さいソーシャルボタンの微調整 */
+ul#sub li {
+    margin-right: 19px;
+}
+
+/* スマホ表示時のfeedlyボタンのフォント調整 */
+.feedlyCount {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+/* kanren, new post のタイトル調整 */
+#kanren dd h5 {
+    font-size: 14px !important;
+}
+
+/* スマホ表示時のヘッダー広告 */
+#admobile {
+    margin-bottom: 20px;
+}
+
+/** Movies用 **/
+.mv_box {
+    display: block;
+}
+
+#entry-content .mv_box .mv_img {
+    max-width: 100%;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+#entry-content .mv_box .mv_img img {
+    margin: auto;
+}
+
+#entry-content .mv_box_in {
+    max-width: 100%;
+    width: auto;
+}
+
+.sns-name {
+    display: none;
+}
+
+.sns-button *:before {
+    font-size: 20px;
+}
+
+.pagination {
+    margin-bottom: 40px !important;
+}
+
+.pagination span,
+.pagination a {
+    margin: 5px 5px 2px 0px !important;
+    padding: 10px 15px !important;
+    box-shadow: 1px 1px 1px #aaa;
+}
+
+
+/*
+ * 404
+ *
+ *----------------------------------------------------------*/
+ #entry-content.yonmaruyon h1 {
+     font-size: 24px
+ }
+
+.yonmaruyon #s {
+    width: 86%;
+}
+ 
+.yonmaruyon li.cat-item {
+    display: block;
+    font-size: 16px;
+}
+
+.yonmaruyon .children {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#footer-in {
+    display: block;
+}
+
+.footer-logo-in,
+.footerin-block {
+    max-width: 100%;
+    width: auto;
+}
+
+.footer-logo-in a {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul li {
+    float: none;
+    width: 100%;
+    margin-bottom: 0px;
+    border-top: solid 1px #ccc;
+}
+
+.footer-menu ul li a {
+    display: block;
+    width: 100%;
+    padding: 8px 6px;
+}
+
+.footer-menu ul li:last-child {
+    border-bottom: solid 1px #ccc;
+}
+
+.footer-menu ul li a:hover {
+    background: #f3f3f3;
+    color: #900;
+}
+
+.footer-pop-list {
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.ad-kijisita {
+    display: block;
+}
+
+.ad-kijisita-in {
+    max-width: 336px;
+    text-align: center;
+}
+
+.ad-kijisita-in img {
+    display: inline;
+}
+
+/* ---- ここまで ----*/
+}
+
+/*media Queries PCサイズ - ヘッダーのAdsese用スマホ／タブレットサイズ
+* ----------------------------------------------------
+*/
+@media only screen and (min-width: 780px) {
+
+/** サイドバーを336pxにする時は以下を有効にする
+#contentInner {
+	margin-right: -336px !important;
+}
+main {
+	margin-right: 356px !important;
+	padding: 20px 37px !important;
+}
+aside {
+	width: 336px !important;
+}
+*/
+
+main {
+    margin-right: 300px !important;
+}
+
+aside {
+	width: 300px !important;
+}
+
+.post ul.list-fix li {
+    font-size: 13px !important;
+}
+
+.separator {
+    margin-right: 1em;
+    height: 175px;
+    overflow: hidden;
+}
+
+h2 {
+    clear: both;
+}
+
+.ad-more {
+    padding-top: 20px;
+}
+
+#contentInner main {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+
+/*-- ここから --*/
+/*--------------------------------------
+  768px PREV NEXT
+--------------------------------------*/
+
+#prev_next #prev, #prev_next #prev::before, #prev_next #prev::after,
+#prev_next #next, #prev_next #next::before, #prev_next #next::after {	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+
+#prev_next #prev_title, #prev_next #next_title{
+    padding:3px 10px;
+}
+#prev_next #next_title{
+	right:10px;
+}
+
+#prev_next #prev img{
+    float:left;
+    margin-right:10px
+}
+
+
+#prev_next #next img{
+   float:right;
+   margin-left: 10px;
+}
+/*-- ここまで --*/
+
+/*-- ここまで --*/
+}
+
+/*media Queries PCサイズ - 1070px〜
+* ----------------------------------------------------
+*/
+@media only screen and (max-width: 1070px) {
+
+.btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.post ul#dl-btn li.btn-list {
+    width: 100%;
+}
+
+.post ul#dl-btn li.btn-list:last-child {
+    margin-top: 10px;
+}
+
+article #kanren dl.kijishita {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    float: none;
+}
+
+/*
+article #kanren dl.kijishita {
+    width: 30%;
+}
+*/
+article #kanren dl.kijishita dt {
+    float: left;
+}
+
+article #kanren dl.kijishita dd {
+    clear: none;
+}
+
+.ad-header {
+    width: 100%;
+    float: none;
+}
+/*-- ここまで --*/
+}
